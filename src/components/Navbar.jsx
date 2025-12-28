@@ -44,7 +44,7 @@ export default function Navbar() {
             <div className={`hidden md:flex items-center gap-8 ${isOpen ? "hidden" : "ml-8"}`}>
                <Link
                 href="/team"
-                className="text-base font-outfit text-white px-4 py-2 hover:text-white hover:bg-white/10 rounded-lg transition-colors duration-200 whitespace-nowrap"
+                className="text-base font-outfit text-white px-2 py-1 hover:text-white hover:bg-white/10 rounded-lg transition-colors duration-200 whitespace-nowrap"
               >
                 Our Team
               </Link>
