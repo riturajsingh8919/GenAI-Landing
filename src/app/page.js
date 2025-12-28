@@ -1,13 +1,14 @@
 "use client";
-import React from 'react';
-import Hero from "../components/Hero";
-import VideoSection from "../components/VideoSection";
+import React from "react";
+import HeroVideoSection from "../components/HeroVideoSection";
+import Team from "@/components/Team";
+
 
 export default function Home() {
   return (
     <main className="relative">
-        <Hero />
-        <VideoSection />
+      <HeroVideoSection />
+      <Team/>
     </main>
   );
 }
