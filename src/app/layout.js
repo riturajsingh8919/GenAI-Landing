@@ -1,5 +1,7 @@
 import { Outfit, Instrument_Serif, Inter, Public_Sans } from "next/font/google";
 import "./globals.css";
+import SmoothScroll from "@/components/SmoothScroll";
+import Navbar from "@/components/Navbar";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -33,8 +35,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${outfit.variable} ${instrumentSerif.variable} ${inter.variable} ${publicSans.variable} antialiased`}
+        className={`${outfit.variable} ${instrumentSerif.variable} ${inter.variable} ${publicSans.variable} antialiased selection:bg-[#5646a3] selection:text-white`}
       >
+        <SmoothScroll />
+        <Navbar />
         {children}
       </body>
     </html>

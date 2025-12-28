@@ -1,9 +1,11 @@
-import React from 'react'
+"use client";
+import React from 'react';
+import Hero from "../components/Hero";
 
-function page() {
+export default function Home() {
   return (
-    <div>page</div>
-  )
+    <main className="relative">
+        <Hero />
+    </main>
+  );
 }
-
-export default page
