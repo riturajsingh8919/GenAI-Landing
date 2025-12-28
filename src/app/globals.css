@@ -17,6 +17,10 @@
   --font-public-sans: var(--font-public-sans);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #000D24;
   color: #fff;

@@ -55,7 +55,7 @@ const itemVariants = {
 
 export default function Team() {
   return (
-    <section className="py-20 md:py-32">
+    <section className="py-20 md:py-32" id="team">
       <div className="max-w-7xl mx-auto px-4 lg:px-16">
         {/* Section Title */}
         <motion.h2

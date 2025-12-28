@@ -43,13 +43,13 @@ export default function Navbar() {
              {/* Desktop Nav Items (Hidden on Mobile) */}
             <div className={`hidden md:flex items-center gap-8 ${isOpen ? "hidden" : "ml-8"}`}>
                <Link
-                href="/team"
+                href="/#team"
                 className="text-base font-outfit text-white px-2 py-1 hover:text-white hover:bg-white/10 rounded-lg transition-colors duration-200 whitespace-nowrap"
               >
                 Our Team
               </Link>
                <Link
-                href="/nexcura"
+                href="https://www.genaihealth.care/NxRing"
                 className="bg-[#5646a3] text-white text-base font-semibold px-5 py-2.5 rounded-full transition-all duration-300 shadow-[0_0_20px_-5px_#5646a3] hover:shadow-[0_4px_10px_-2px_rgba(255,255,255,0.05),0_2px_2px_-1px_rgba(255,255,255,0.1),0_0_0_5px_rgba(98,20,217,0.32)] hover:backdrop-blur-[10px] font-outfit whitespace-nowrap"
               >
                 NexCura

@@ -69,7 +69,7 @@ export default function HeroVideoSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
           >
-            <h1 className="font-outfit text-5xl md:text-7xl lg:text-8xl font-normal tracking-tight text-white leading-[1.1] mb-6">
+            <h1 className="font-outfit text-4xl md:text-7xl lg:text-8xl font-normal tracking-tight text-white leading-[1.1] mb-6">
               Healthcare, built for <br />
               <span className="text-white/90">what comes next.</span>
             </h1>
