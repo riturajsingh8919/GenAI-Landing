@@ -3,24 +3,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import blogData from "@/data/blog.json";
 
-// Sample blog data
-const blogPosts = [
-  {
-    id: 1,
-    title: "5 Evidence-Based Ways to Boost Testosterone Levels in Men",
-    category: "Men's Health",
-    image: "/blog-01.png",
-    slug: "boost-testosterone-levels",
-  },
-  {
-    id: 2,
-    title: "The Science of Sleep: How Quality Rest Transforms Your Health",
-    category: "Wellness",
-    image: "/blog-01.png",
-    slug: "science-of-sleep",
-  },
-];
+// Get blog posts from JSON data
+const blogPosts = blogData;
 
 export default function BlogPage() {
   return (
