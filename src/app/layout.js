@@ -2,6 +2,7 @@ import { Outfit, Instrument_Serif, Inter, Public_Sans } from "next/font/google";
 import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import Navbar from "@/components/Navbar";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -41,7 +42,9 @@ export default function RootLayout({ children }) {
         <SmoothScroll />
         <Navbar />
         {children}
+        <ScrollToTop />
       </body>
     </html>
   );
 }
+
