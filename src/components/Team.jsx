@@ -17,7 +17,7 @@ const teamMembers = [
   {
     name: "Daniel Botelho, MD",
     role: "Co-Founder & CMO",
-    image: "/team/daniel.webp",
+    image: "/team/daniel1.webp",
   },
   {
     name: "James Porter",
@@ -63,7 +63,7 @@ export default function Team() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="font-outfit text-4xl md:text-5xl lg:text-6xl text-white mb-12 md:mb-16"
+          className="font-outfit text-4xl text-white mb-12 md:mb-16"
         >
           Meet the team.
         </motion.h2>
