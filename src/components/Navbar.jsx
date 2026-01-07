@@ -50,7 +50,7 @@ export default function Navbar() {
 
             {/* Desktop Nav Items (Hidden on Mobile) */}
             <div
-              className={`hidden md:flex items-center gap-8 ${
+              className={`hidden md:flex items-center gap-6 ${
                 isOpen ? "hidden" : "ml-8"
               }`}
             >
@@ -59,6 +59,12 @@ export default function Navbar() {
                 className="text-base font-outfit text-white px-2 py-1 hover:text-white hover:bg-white/10 rounded-lg transition-colors duration-200 whitespace-nowrap"
               >
                 Our Team
+              </Link>
+              <Link
+                href="/blog"
+                className="text-base font-outfit text-white px-2 py-1 hover:text-white hover:bg-white/10 rounded-lg transition-colors duration-200 whitespace-nowrap"
+              >
+                Blog
               </Link>
               <Link
                 href="https://www.genaihealth.care/NxRing"
